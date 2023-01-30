@@ -1,0 +1,57 @@
+<!--Ingram Micro Internship: index.html/(Release) Coded by Nitin Arun(Intern)-->
+<!DOCTYPE html>
+<html lang ="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=content-width, initial-scale=1.0">
+		<title>Home Page</title>
+		<link href = "stylesheet.css" rel ="stylesheet">
+		<script src="script.js"></script>
+	</head>
+
+	<!---Body of the website--->
+	<body>
+		<header class="header">
+			<div class="logo-title">
+				<!---This is the Ingram Micro Logo--->
+				<div class="logo-div">
+					<a href="index.html">
+						<img src ="images/ingrammicrologo.png" class="logo">
+					</a>
+				</div>
+			</div>
+
+			<!---This is the Nav bar--->
+			<nav class="index-nav">
+				<!---This is the Log in Button--->
+				<div class="login main-btn">
+					<a href="index.html">
+						<button id="show-login">Log In</button>
+					</a>
+				</div>
+			</nav>
+		</header>
+
+		<!---This is the Login Form--->
+		<div class="container">
+			<form action="login.php" method="POST">
+			<img src ="images/ingrammicrologo2.png" class="logo-2">
+			<div class="form-title">
+				<p>Please fill out the fields below in order to access your account</p>
+				<br>
+			</div>
+				<div class="form-group">
+					<label class="email-title" for="">Username</label>
+					<input type="text" class="form-control" placeholder="Enter Username" required>
+				</div>
+				
+				<div class="form-group">
+					<label class="password-title" for="">Password</label>
+					<input type="password" class="form-control" placeholder="Enter Password" required>
+				</div>
+				<input type="submit" class="LI-btn" value="Log in">
+			</form> 
+		</div>
+
+	</body>
+</html>

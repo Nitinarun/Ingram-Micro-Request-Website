@@ -1,0 +1,108 @@
+<!--Ingram Micro Internship: index.html/(Release) Coded by Nitin Arun(Intern)-->
+<!DOCTYPE html>
+<html lang ="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=content-width, initial-scale=1.0">
+		<title>Product Quotation</title>
+		<link href = "stylesheet.css" rel ="stylesheet">
+		<script src="script.js"></script>
+	</head>
+
+	<!---Body of the website--->
+	<body>
+		<header class="header">
+				<div class="logo-title">
+					<!---This is the Ingram Micro Logo--->
+					<div class="logo-div">
+						<a href="index.html">
+							<img src ="images/ingrammicrologo.png" class="logo">
+						</a>
+					</div>
+				</div>
+
+				<!---This is the Nav bar--->
+				<nav class="index-nav">
+					<!---This is the Log in Button--->
+					<div class="login main-btn">
+						<a href="index.html">
+							<button id="show-login">User1234</button>
+						</a>
+					</div>
+				</nav>
+			</header>
+	
+			<!---This is the Product Quotation Form--->
+			<div class="product-quotation-container">
+				<form action="" method="GET">
+					<div class="row">
+						<div class="form-title">
+							<h3><u>Details</u></h3>
+							<p>Please fill out the fields below in order to receive your Quotation</p>
+							<br>
+						</div>
+
+						<div class="column">
+							<!--Brand Field-->
+							<div class="form-group">
+								<label class="type-of-question">Brands</label>
+								<select type="text" class="quiz-name-form-control" required>
+									<option>Asus</option>
+									<option>Hewlett Packard</option>	
+									<option>Dell</option>
+									<option>Cisco</option>
+								</select>
+							</div>
+							<!--Model Field-->
+							<div class="form-group">
+								<label class="type-of-question">Models</label>
+								<select type="text" class="quiz-name-form-control" required>
+									<option>UX330CA</option>
+									<option>UX330UA</option>	
+									<option>CBA125UA</option>
+									<option>UB257UA</option>
+								</select>
+							</div>
+							<!--Quantity Field-->
+							<div class="form-group">
+								<label class="type-of-question">Quantity</label>
+								<select type="text" class="quiz-name-form-control" required>
+									<option>1</option>
+									<option>2</option>	
+									<option>3</option>
+									<option>4</option>
+									<option>5</option>
+								</select>
+							</div>
+							<!--Location Field-->
+							<div class="form-group">
+								<label class="type-of-question">Location</label>
+								<select type="text" class="quiz-name-form-control" required>
+									<option>Kuala Lumpur</option>
+									<option>Peninsula Malaysia</option>	
+								</select>
+							</div>
+							<!--Onsite / Virtual Field-->
+							<div class="form-group">
+								<label class="type-of-question">Onsite / Virtual</label>
+								<select type="text" class="quiz-name-form-control" required>
+									<option>Onsite</option>
+									<option>Virtual</option>	
+								</select>
+							</div>
+						</div>
+					<div>
+				</form>
+			</div>
+			
+			<!--This is the buttons to Add to Cart & Checkout-->
+			<div class="end-page-btn">
+				<a href="">
+					<button class="add-to-cart-btn">Add to Cart</button>
+				</a>
+				<a href="checkout.html">
+					<button class="checkout-btn">Checkout</button>
+				</a>
+			</div>
+	</body>
+</html>

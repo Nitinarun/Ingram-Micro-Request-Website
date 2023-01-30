@@ -1,0 +1,102 @@
+<!--Ingram Micro Internship: index.html/(Release) Coded by Nitin Arun(Intern)-->
+<!DOCTYPE html>
+<html lang ="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=content-width, initial-scale=1.0">
+		<title>Checkout</title>
+		<script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link href = "stylesheet.css" rel ="stylesheet">
+		<script src="script.js"></script>
+	</head>
+
+	<!---Body of the website--->
+	<body>
+		<header class="header">
+			<div class="logo-title">
+				<!---This is the Ingram Micro Logo--->
+				<div class="logo-div">
+					<a href="index.html">
+						<img src ="images/ingrammicrologo.png" class="logo">
+					</a>
+				</div>
+			</div>
+
+			<!---This is the Nav bar--->
+			<nav class="index-nav">
+				<!---This is the Log in Button--->
+				<div class="login main-btn">
+					<a href="index.html">
+						<button id="show-login">User1234</button>
+					</a>
+				</div>
+			</nav>
+		</header>
+		
+
+		<!--Product Quotation Rows-->
+		<div class="checkout-container">
+			<!--Quotation Title-->
+			<div class="form-title">
+					<h3><u>Quotation</u></h3>
+					<p>Please check your cart for the products on your Quotation</p>
+					<br>
+					<br>
+					<h3 class="quotation-header-title1">Brand + Model</h3>
+					<h3 class="quotation-header-title2">Quantity</h3>
+					<h3 class="quotation-header-title3">Location</h3>
+					<h3 class="quotation-header-title4">Onsite / Virtual</h3>
+					<h3 class="quotation-header-title5">Price</h3>					
+			</div>
+
+			<!--Item One-->
+			<div class="items-container">
+				<img src ="images/server.png" class="quotation-images">
+				<h3 class="product-title">Cisco UX330CA Server</h3/>
+				<!--Quantity Box-->
+				<div class="quantity buttons_added">
+					<input type="button" value="-" class="minus">
+					<input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+					<input type="button" value="+" class="plus">
+				</div>
+				<h3 class="location-title">Kuala Lumpur</h3>
+				<h3 class="o-v-title">Onsite</h3>
+				<h3 class="price-title">RM 7000</h3>
+			</div>
+			<!--Item Two-->
+			<div class="items-container">
+				<img src ="images/headphones.png" class="quotation-images">
+				<h3 class="product-title">Cisco Bluetooth Headphones</h3/>
+				<!--Quantity Box-->
+				<div class="quantity buttons_added">
+					<input type="button" value="-" class="minus">
+					<input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+					<input type="button" value="+" class="plus">
+				</div>
+				<h3 class="location-title">Kuala Lumpur</h3>
+				<h3 class="o-v-title">Onsite</h3>
+				<h3 class="price-title">RM 100</h3>
+			</div>
+			<!--Item Three-->
+			<div class="items-container">
+			<img src ="images/ethernetcable.png" class="quotation-images">
+				<h3 class="product-title">Cisco LAN CAT8 Cables</h3/>
+				<!--Quantity Box-->
+				<div class="quantity buttons_added">
+					<input type="button" value="-" class="minus">
+					<input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+					<input type="button" value="+" class="plus">
+				</div>
+				<h3 class="location-title">Kuala Lumpur</h3>
+				<h3 class="o-v-title">Onsite</h3>
+				<h3 class="price-title">RM 50</h3>
+			</div>
+			<br>
+			<div class="form-title">
+				<h3><u>Scale of Work</u></h3>
+					<p>Please refer below to the scale of the work needed for the Quotation</p>
+			</div>
+			
+		</div>
+	</body>
+</html>
